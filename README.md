@@ -1,6 +1,6 @@
-Let's assume you have date format something like "2019-11-10T15:33:03.313Z" and you want to convert it to "DD.MM.YYYY HH:MM" format.
+Let's assume you have date format something like ```"2019-11-10T15:33:03.313Z"``` and you want to convert it to ```"DD.MM.YYYY HH:MM"``` format.
 
-First, you need to create a new Date object from "2019-11-10T15:33:03.313Z"
+First, you need to create a new Date object from ```"2019-11-10T15:33:03.313Z"```
 ```javascript
 var event = new Date("2019-11-10T15:33:03.313Z"); 
 ```
